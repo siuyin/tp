@@ -1,0 +1,5 @@
+:iab f{ func X() {<NL>}<Up><Esc>/X<CR>xi
+:iab tf{ func TestX(t *testing.T) {<NL>}<Up><Esc>/X<CR>xi
+:iab hf{ http.HandleFunction("/X", func(w http.ResponseWriter, r *http.Request) {<NL>})<Up><Esc>/X<CR>xi
+:iab sw{ switch X {<NL><Tab>case Y:<NL>default:<NL><BS>}
+:iab sl{ select {<NL><Tab>case X:<NL>default:<NL><BS>}
