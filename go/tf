@@ -1,0 +1,5 @@
+func TestMyFunc(t *testing.T) {
+	if 1 == 2 {
+		t.Errorf("fail")
+	}
+}
