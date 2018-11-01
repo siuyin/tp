@@ -4,6 +4,12 @@
 
 f.css
 
+## Docker tp/dk
+
+Dockerfile -- dockerfile template
+
+dockerignore -- .dockerignore template
+
 ## Go tp/go
 
 f.go -- go file template.
@@ -17,3 +23,8 @@ f.html -- html file template
 ## javascript tp/js
 
 f.js -- javascript file template
+
+## vim tp/vi
+
+vimrc -- .vimrc template
+
