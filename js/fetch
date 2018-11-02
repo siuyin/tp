@@ -1,0 +1,8 @@
+fetch("/url?a=2&b=3")
+.then(function(response) {
+    return response.text();
+    // response.text() is a promise to return text
+})
+.then(function(text) {
+    a.textContent = text;
+});
